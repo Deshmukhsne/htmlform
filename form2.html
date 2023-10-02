@@ -1,0 +1,116 @@
+<html>
+<head>
+<title>form2</title>   
+<style>
+#div1
+    {
+        width:500px;
+        height:650px;
+        border:3px solid black;
+        margin:50px;
+        padding: 50px;
+        background-color: aqua;
+    }
+    label
+    {
+        text-align: left;
+        font-size: 15px;
+        float:left;
+        margin-left: 5px;
+    }
+    form
+    {
+        margin: 0px;
+        padding: 20px 0px 20px 0px;
+    }
+   #project
+    {
+        width:200px;
+        height: 50px;
+        float:left;
+        margin-left: 150px;
+    }
+    #cal
+    {
+        width:200px;
+        height:50px;
+        float:left;
+        margin-left: 150px;
+    }
+    #button
+    {
+        width:30px;
+        height: 20px;
+    }
+    #div4
+    {
+width:100px;
+        height:40px;
+        background-color: darkviolet;
+    }
+    #div5
+    {
+        width:100px;
+        height: 40px;
+        background-color: green;
+    }
+</style>    
+</head>
+<body>
+<center>    
+<h1><u>Project Management</u></h1> 
+<div id="div1">      
+<form>  
+<label> Project </label>
+    &nbsp;&nbsp;&nbsp;
+<label>Name </label>
+&nbsp;   
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;        
+<input name="project" type="txt" id="project">
+
+<br><br>  <br><br>   
+    &nbsp;&nbsp;
+<label> Assigned</label>
+    &nbsp;&nbsp;
+    <label>To </label>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        
+<select id="align">
+<option>X-MANY PERSONS HERE FIND</option>    
+</select>    
+<br><br><br><br>   
+<label>Start</label>
+    &nbsp;
+<label>Date</label>    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        
+<input type="date" id="cal"> 
+<br><br>
+<br><br> 
+<label>End Date</label>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    
+<input type="date" id="cal">   
+    <br><br><br><br>
+&nbsp;&nbsp;&nbsp;&nbsp; 
+    <label>Priority</label>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
+    &nbsp;&nbsp;&nbsp;&nbsp;  
+     <input type="radio" id="button"><b>high</b>
+    &nbsp;&nbsp; 
+     <input type="radio" id="button"><b>average</b>
+    &nbsp;&nbsp; 
+     <input type="radio" id="button"><b>low</b>
+    <br><br><br><br>
+    <label>Description</label>
+    &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+    <textarea row="2" col="100"></textarea>
+    <br><br><br><br>
+    <input type="submit" value="Submit" id="div4">
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <input type="reset" value="Clear" id="div5">
+</form>
+    </div>
+</center>    
+</body>    
+</html>
